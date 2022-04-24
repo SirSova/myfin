@@ -1,0 +1,35 @@
+Find out libs/API for:
+ - Monobank (https://api.monobank.ua/docs/)
+ - Binance (https://binance-docs.github.io/apidocs/spot/en/#api-library)
+ - Interactive Brokers (https://interactivebrokers.github.io/tws-api/)
+
+Monobank:
+ - Authentication by user token or application
+ - Receive user balances & calculate total
+ - Operations ?
+
+Mono invest: (In development, API doesn't exist yet)
+
+Binance:
+ - Authentication by user token or application
+ - Receive tokens pairs which in use
+ - Total current balance
+ - Operations & commissions
+ - Calculate coins profit/loss (current values and completed transactions, including commissions)
+
+Interactive Brokers:
+ - Authentication by user token or application
+ - Receive stocks in use
+ - Total current balance
+ - Operations & commissions
+ - Calculate stocks profit/loss (current values and completed transactions, including commissions)
+
+Manual:
+ - Register transactions for:
+    * cryptocurrencies
+    * stocks
+    * cash
+ - Calculate total balance
+
+Exchange rates:
+ - Currency rates for fiat money (Ukrainian banks/aggregator)
